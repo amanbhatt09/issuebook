@@ -1,0 +1,22 @@
+.container1{
+    display: flex;
+    border: 2px solid red;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.leftside{
+    border: 2px solid green;
+    width: 33.3%;
+    height: 100vh;
+    /* position: sticky; */
+    margin-right: 0px;
+    padding: 11px 17px;
+}
+.rightside{
+    border: 2px solid green;
+    width: 66.6%;
+    padding: 11px 17px;
+    height: 100vh;
+    /* display: flex; */
+}
